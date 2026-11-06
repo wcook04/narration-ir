@@ -124,6 +124,7 @@ acceptance unreviewed.
 
 Paths below are relative to **this skill folder**, not the user's project.
 The entire folder is portable; copying only `SKILL.md` drops the linked resources.
+Packaging sources and license context are in [origins](references/origins.md).
 The instructions work without Python. Helpers use Python 3.10+ and `jsonschema`:
 
 ```sh

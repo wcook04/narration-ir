@@ -31,8 +31,8 @@ prose or assets are redistributed.
 ## Creator evidence
 
 The [supplied interview-editing explainer](https://www.youtube.com/watch?v=ZVcZsMrB1eI)
-was inspected through its available caption track. At approximately 3:13 onward,
-the creator discusses transcript-guided cut suggestions and editorial iteration;
+was inspected through its available caption track. The creator discusses
+transcript-guided cut suggestions and editorial iteration;
 later they describe a mistranslated word and the need to listen and review.
 The adopted lesson is to preserve speaker qualifications and distinguish timing
 from semantic acceptance. This release does not reproduce the creator's transcript,
