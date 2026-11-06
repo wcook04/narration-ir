@@ -13,6 +13,12 @@
     ".editorconfig"
   ],
   "directories": {
+    "assets": {
+      "purpose": "Illustrations used by the repository README; not required by the installed skill",
+      "suffixes": [".png", ".webp"],
+      "guide": "docs/readme-image.md",
+      "regular_files_only": true
+    },
     ".github": {
       "purpose": "CI and dependency updates"
     },
