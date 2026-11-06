@@ -1,49 +1,59 @@
 # Narration IR
 
-**Help your animation agent understand what you're saying.**
+**Give your animation agent the context behind every sentence.**
 
-Give your agent a recording or draft script, plus the sources that explain the
-subject. With this skill, the agent writes a scene-by-scene brief: what each
-sentence means, what viewers need to see, and when the visuals should change.
-Your animation agent then uses that brief with your chosen video tools.
+Narration IR is a portable skill for building an **intermediate representation
+(IR)** between your narration and the visuals: a detailed explanation of what
+you mean, grounded in your sources, and what the audience needs to understand.
 
-The skill is a **folder of instructions, examples and optional helper scripts**.
-You can install it in Claude Code, Codex or another agent that supports skills.
-Use it alongside Remotion, Manim, Motion Canvas or your existing editing workflow.
+Give your agent a script or recording and the relevant papers, code, interviews,
+files or previous videos. The agent expands your words into two levels of context:
+the purpose and continuity of the whole video, and the meaning of each sentence.
+Your animation agent can then use that explanation to design visuals and time
+their changes to the words you say.
 
-[Install the skill](#install-the-skill) · [Read the worked example](skills/narration-ir/examples/interview/walkthrough.md)
+[Install the skill](#install-the-skill) · [Read the IR format](skills/narration-ir/references/contract.md)
 
-![Three stages: your words and sources; a brief explaining meaning and timing; a visual plan that removes a pause while preserving “I saved time for this interview.”](assets/readme/narration-to-visual-plan.png)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/readme/narration-to-visual-plan-mobile.png">
+  <img src="assets/readme/narration-to-visual-plan.png" alt="Narration and sources become a detailed IR: global context, sentence-level meaning, audience understanding and word-timed visual events. The IR is then supplied to an animation agent.">
+</picture>
 
-*An illustration of the fictional interview example below. The image shows a
-planned edit, not a screenshot of an app or a rendered video.*
+*Illustration of the IR workflow. The waveform and storyboard sketches are
+illustrative, rather than a recording or finished animation.*
 
-**IR** means *intermediate representation*: here, the written plan between your
-narration and the animation.
+The skill is a **copyable folder of instructions, examples and optional helper
+scripts**. Use it in Claude Code, Codex or another agent that supports skills,
+alongside your chosen animation tools such as Remotion, Manim or Motion Canvas.
 
 ## See the difference
 
-Suppose an interviewee says: **“I saved time [pause] for this interview.”**
+You say: **“This narrows the search.”**
 
-You want to show how you edited the recording, and narrate:
-**“I remove the pause, but keep the qualification.”** The qualification is
-“for this interview”: those words limit the claim to one interview.
+What is being searched? What was ruled out? Have we found the answer, or just
+reduced the possibilities? Which objects should remain from the previous scene?
+Your source material and the surrounding explanation determine those answers.
 
-Your animation agent needs that context before deciding what to draw.
+For a hypothetical search that eliminates candidates without choosing a winner,
+the sentence-level IR could contain:
 
-| In the brief | What the animator needs to know |
+| In the IR | Context for the animator |
 | --- | --- |
-| Meaning | Shorten silence while preserving “for this interview.” |
-| Source | Where to find the original quote and proposed edit. |
-| Risk | Removing “for this interview” would make the claim broader. |
-| What to show | The same words before and after. Only the silence disappears. |
-| Timing | The gap closes on **remove**; the qualification stays visible on **keep**. |
-| Design choices | The animator chooses the layout, motion and typography. |
+| What I mean | The test rules out some candidates. The remaining candidates still need investigation. |
+| What I do not mean | We have found or verified the winner. |
+| What viewers already know | What a candidate represents and which test we just applied. |
+| What they should understand next | Why the test excludes those candidates while leaving others possible. |
+| What could confuse them | Highlighting a remaining candidate could look like declaring a winner. |
+| What must be shown | The same candidate set before and after the test, with exclusions distinguished from remaining possibilities. |
+| Timing | Tie the change in the candidate set to this occurrence of “narrows,” then hold the result. |
 
-[Follow the complete eight-stage example](skills/narration-ir/examples/interview/walkthrough.md)
-from opening question to answer, including a deliberately misleading visual
-proposal and its correction. The interview and timestamps are invented for the
-example; no real interview footage is included.
+The full entry also cites the source passage or implementation that supports the
+interpretation. The animator chooses how to show the distinction: the IR specifies
+the meaning that the picture must preserve, while leaving design choices open.
+
+The included [populated JSON sample](skills/narration-ir/examples/interview/plan.json)
+and [walkthrough](skills/narration-ir/examples/interview/walkthrough.md) exercise
+the same fields using a fictional interview example. Their timestamps are synthetic.
 
 ## Install the skill
 
@@ -83,9 +93,12 @@ Python environment, or renderer.
 Then ask your agent:
 
 > Use narration-ir on my recording and source folder. Keep my recorded words.
-> Explain what each sentence means and what viewers need to see. Tie visual
-> changes to the words I say. Make sure each idea is introduced before I refer
-> to it, then give my animation agent a brief for each scene.
+> Build a global IR for the whole video and a local IR for each sentence. Ground
+> the elaboration in my sources: what I mean, what I do not mean, what viewers
+> already know, what they need to understand, and what the visuals must show.
+> Tie visual events to the words I say. Review the sequence so ideas are introduced
+> before they are referenced, then give my animation agent the relevant IR for
+> each scene. Leave the visual design choices open.
 
 For a script that is still changing, add: “Develop the script and pictures
 together; timing remains provisional until I record.”
@@ -125,17 +138,23 @@ words are rejected. No transcription engine or renderer is bundled or installed.
 For the **whole video**, the agent records who it is for, the opening question,
 the answer you will give, and the steps needed to explain that answer. It also
 records which objects and visual conventions should stay consistent, and which
-existing skills, components and assets could help.
+existing skills, cloned repositories, components and assets could help. Previous
+videos can supply recurring objects, colours and themes when consistency matters.
 
 For **each sentence**, the agent explains what you mean using the sources. It
 records what viewers already know, what they should understand next, what they
 might misunderstand, and what the picture must show. Each planned visual change
 refers to a specific spoken word, so repeated words can be distinguished.
 
-Ten-to-one elaboration can be useful when the speaker compresses substantial
-background into a sentence. Ask for that level of detail when useful; more words
-alone do not make an explanation better. Most spoken words can accompany the
-same picture without another animation.
+You can ask for roughly **ten words of elaboration per spoken word**: a ten-word
+sentence might need a hundred words explaining its context and implications to
+the animator. Ground that detail in the sources. The elaboration is background
+for the agent, rather than text to display on screen. Most spoken words can
+accompany the same picture without another animation.
+
+Before animation, review the IR in order with later information hidden. Each
+object and concept should be introduced before it is referenced. That review
+also helps catch pictures that would reveal a conclusion too early.
 
 With an **accepted recording**, the agent plans around the existing words and
 timing. With a **draft script**, you can revise the words and pictures together,
@@ -149,7 +168,7 @@ until reviewed against the audio.
 | [skills/narration-ir](skills/narration-ir/SKILL.md) | Complete installable skill; copy this folder. |
 | [Worked example](skills/narration-ir/examples/interview/walkthrough.md) | Eight stages, sources, populated plan and a failed treatment. |
 | [References](skills/narration-ir/references/contract.md) | Portable schema, review method and renderer handoff. |
-| [README illustration](assets/readme/narration-to-visual-plan.png) | Generated explanation of the worked example. |
+| [README illustration](assets/readme/narration-to-visual-plan.png) | Global context, sentence-level elaboration and the animation handoff. |
 | [tests](tests/test_narration_ir.py) | Timing, chronology, import and isolated-copy regression tests. |
 | [scripts](scripts/verify.py) | Maintainer verification and repository layout enforcement. |
 | [docs](docs/provenance.md) | Design sources, limitations and release evidence. |
