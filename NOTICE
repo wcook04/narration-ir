@@ -1,0 +1,8 @@
+Narration IR
+Copyright 2026 Will Cook
+
+Licensed under the Apache License, Version 2.0.
+The skill, examples and helper implementation are authored for this project.
+The repository-only layout gate and its tests are reused from Will Cook's
+repository-organization tooling. Design references are documented in the skill's
+references/origins.md; no third-party renderer or skill code is bundled.

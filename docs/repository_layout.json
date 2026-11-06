@@ -1,0 +1,67 @@
+{
+  "schema": "repository_layout@2",
+  "undeclared_directories": "error",
+  "root_files": [
+    "README.md",
+    "AGENTS.md",
+    "LICENSE",
+    "NOTICE",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "requirements.txt",
+    ".gitignore",
+    ".editorconfig"
+  ],
+  "directories": {
+    ".github": {
+      "purpose": "CI and dependency updates"
+    },
+    "skills": {
+      "purpose": "Self-contained installable agent skills"
+    },
+    "tests": {
+      "purpose": "Behavior and portable-copy regression tests",
+      "suffixes": [
+        ".py"
+      ]
+    },
+    "scripts": {
+      "purpose": "Repository verification and layout gate",
+      "suffixes": [
+        ".py"
+      ]
+    },
+    "docs": {
+      "purpose": "Provenance, release evidence and repository ownership",
+      "suffixes": [
+        ".md",
+        ".json"
+      ]
+    }
+  },
+  "required_files": [
+    "README.md",
+    "AGENTS.md",
+    "LICENSE",
+    "NOTICE",
+    "docs/repository_layout.json",
+    "skills/narration-ir/SKILL.md",
+    "skills/narration-ir/LICENSE",
+    "skills/narration-ir/NOTICE",
+    "skills/narration-ir/references/plan.schema.json",
+    "skills/narration-ir/scripts/narration_ir.py",
+    "scripts/verify.py"
+  ],
+  "content_routes": {
+    "README.md": [
+      "skills/narration-ir/SKILL.md",
+      "scripts/verify.py",
+      "docs/provenance.md"
+    ],
+    "AGENTS.md": [
+      "skills/narration-ir/",
+      "docs/repository_layout.json"
+    ]
+  },
+  "exceptions": {}
+}

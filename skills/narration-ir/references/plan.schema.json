@@ -1,0 +1,654 @@
+{
+  "type": "object",
+  "properties": {
+    "schema": {
+      "enum": [
+        "narration-ir/0.1"
+      ]
+    },
+    "mode": {
+      "enum": [
+        "accepted_recording",
+        "developing_script"
+      ]
+    },
+    "transcript": {
+      "type": "object",
+      "properties": {
+        "revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "enum": [
+            "synthetic",
+            "asr_unreviewed",
+            "audio_reviewed",
+            "untimed"
+          ]
+        },
+        "duration": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "words": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "start": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "end": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "text",
+              "start",
+              "end"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "revision",
+        "provenance",
+        "duration",
+        "words"
+      ],
+      "additionalProperties": false
+    },
+    "transcript_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "global_plan": {
+      "type": "object",
+      "properties": {
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "payoff": {
+          "type": "string",
+          "minLength": 1
+        },
+        "payoff_beat": {
+          "type": "string",
+          "minLength": 1
+        },
+        "route": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "viewer_value": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "education",
+              "entertainment",
+              "emotion"
+            ]
+          },
+          "minItems": 1
+        },
+        "profile": {
+          "type": "object",
+          "properties": {
+            "persistent_style": {
+              "type": "string",
+              "minLength": 1
+            },
+            "progress": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sound": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "persistent_style",
+            "progress",
+            "sound"
+          ],
+          "additionalProperties": false
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "location": {
+                "type": "string",
+                "minLength": 1
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "license": {
+                "type": "string",
+                "minLength": 1
+              },
+              "purpose": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "discovered",
+                  "read",
+                  "executed",
+                  "inspected",
+                  "accepted",
+                  "unavailable"
+                ]
+              },
+              "trial": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "name",
+              "location",
+              "version",
+              "license",
+              "purpose",
+              "status",
+              "trial"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "audience",
+        "question",
+        "payoff",
+        "payoff_beat",
+        "route",
+        "viewer_value",
+        "profile",
+        "capabilities"
+      ],
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "kind": {
+            "enum": [
+              "fictional",
+              "primary",
+              "speaker_account",
+              "secondary"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "path",
+          "sha256",
+          "kind"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "summary"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          },
+          "introduced_at": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "meaning",
+          "introduced_at"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          },
+          "continuity": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "meaning",
+          "continuity"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "paragraph": {
+            "type": "string",
+            "minLength": 1
+          },
+          "start": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "end": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "word_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "speech": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          },
+          "audience_before": {
+            "type": "string",
+            "minLength": 1
+          },
+          "audience_after": {
+            "type": "string",
+            "minLength": 1
+          },
+          "misconceptions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "must_not_imply": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "excerpt": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "source_id",
+                "locator",
+                "excerpt"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "requires": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "introduces": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "knowledge": {
+            "type": "object",
+            "properties": {
+              "viewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "narrator": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "viewer",
+              "actor",
+              "narrator"
+            ],
+            "additionalProperties": false
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "obligations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "show": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "inference": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "id",
+                "show",
+                "inference"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "handoff": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "section",
+          "paragraph",
+          "start",
+          "end",
+          "word_ids",
+          "speech",
+          "meaning",
+          "audience_before",
+          "audience_after",
+          "misconceptions",
+          "must_not_imply",
+          "source_refs",
+          "requires",
+          "introduces",
+          "knowledge",
+          "objects",
+          "obligations",
+          "handoff"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "beat": {
+            "type": "string",
+            "minLength": 1
+          },
+          "obligation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor_word": {
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor_edge": {
+            "enum": [
+              "start",
+              "end"
+            ]
+          },
+          "sync": {
+            "enum": [
+              "onset",
+              "emphasis",
+              "settled"
+            ]
+          },
+          "offset": {
+            "type": "number"
+          },
+          "duration": {
+            "type": "number",
+            "minimum": 0
+          },
+          "hold": {
+            "type": "number",
+            "minimum": 0
+          },
+          "requires": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "beat",
+          "obligation",
+          "anchor_word",
+          "anchor_edge",
+          "sync",
+          "offset",
+          "duration",
+          "hold",
+          "requires"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "semantic": {
+          "enum": [
+            "unreviewed",
+            "self-reviewed",
+            "independently-reviewed"
+          ]
+        },
+        "audiovisual": {
+          "enum": [
+            "unreviewed",
+            "reviewed"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "semantic",
+        "audiovisual",
+        "issues"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema",
+    "mode",
+    "transcript",
+    "transcript_sha256",
+    "global_plan",
+    "sources",
+    "sections",
+    "concepts",
+    "objects",
+    "beats",
+    "events",
+    "review"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Narration IR 0.1"
+}

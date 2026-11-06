@@ -1,0 +1,4 @@
+interface:
+  display_name: "Narration IR"
+  short_description: "Ground narration in meaning and timed visual obligations"
+  default_prompt: "Use $narration-ir to turn my narration and sources into a grounded visual explanation plan."

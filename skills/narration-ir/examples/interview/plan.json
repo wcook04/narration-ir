@@ -1,0 +1,1365 @@
+{
+  "schema": "narration-ir/0.1",
+  "mode": "developing_script",
+  "transcript": {
+    "revision": "synthetic-demo-1",
+    "provenance": "synthetic",
+    "duration": 64,
+    "words": [
+      {
+        "id": "demo:w00001",
+        "text": "How",
+        "start": 0.6,
+        "end": 0.88
+      },
+      {
+        "id": "demo:w00002",
+        "text": "can",
+        "start": 0.98,
+        "end": 1.26
+      },
+      {
+        "id": "demo:w00003",
+        "text": "I",
+        "start": 1.36,
+        "end": 1.64
+      },
+      {
+        "id": "demo:w00004",
+        "text": "shorten",
+        "start": 1.74,
+        "end": 2.02
+      },
+      {
+        "id": "demo:w00005",
+        "text": "this",
+        "start": 2.12,
+        "end": 2.4
+      },
+      {
+        "id": "demo:w00006",
+        "text": "interview",
+        "start": 2.5,
+        "end": 2.78
+      },
+      {
+        "id": "demo:w00007",
+        "text": "without",
+        "start": 2.88,
+        "end": 3.16
+      },
+      {
+        "id": "demo:w00008",
+        "text": "changing",
+        "start": 3.26,
+        "end": 3.54
+      },
+      {
+        "id": "demo:w00009",
+        "text": "what",
+        "start": 3.64,
+        "end": 3.92
+      },
+      {
+        "id": "demo:w00010",
+        "text": "the",
+        "start": 4.02,
+        "end": 4.3
+      },
+      {
+        "id": "demo:w00011",
+        "text": "speaker",
+        "start": 4.4,
+        "end": 4.68
+      },
+      {
+        "id": "demo:w00012",
+        "text": "meant?",
+        "start": 4.78,
+        "end": 5.06
+      },
+      {
+        "id": "demo:w00013",
+        "text": "First",
+        "start": 8.6,
+        "end": 8.88
+      },
+      {
+        "id": "demo:w00014",
+        "text": "I",
+        "start": 8.98,
+        "end": 9.26
+      },
+      {
+        "id": "demo:w00015",
+        "text": "keep",
+        "start": 9.36,
+        "end": 9.64
+      },
+      {
+        "id": "demo:w00016",
+        "text": "the",
+        "start": 9.74,
+        "end": 10.02
+      },
+      {
+        "id": "demo:w00017",
+        "text": "original",
+        "start": 10.12,
+        "end": 10.4
+      },
+      {
+        "id": "demo:w00018",
+        "text": "recording,",
+        "start": 10.5,
+        "end": 10.78
+      },
+      {
+        "id": "demo:w00019",
+        "text": "so",
+        "start": 10.88,
+        "end": 11.16
+      },
+      {
+        "id": "demo:w00020",
+        "text": "every",
+        "start": 11.26,
+        "end": 11.54
+      },
+      {
+        "id": "demo:w00021",
+        "text": "proposed",
+        "start": 11.64,
+        "end": 11.92
+      },
+      {
+        "id": "demo:w00022",
+        "text": "cut",
+        "start": 12.02,
+        "end": 12.3
+      },
+      {
+        "id": "demo:w00023",
+        "text": "has",
+        "start": 12.4,
+        "end": 12.68
+      },
+      {
+        "id": "demo:w00024",
+        "text": "a",
+        "start": 12.78,
+        "end": 13.06
+      },
+      {
+        "id": "demo:w00025",
+        "text": "reference.",
+        "start": 13.16,
+        "end": 13.44
+      },
+      {
+        "id": "demo:w00026",
+        "text": "The",
+        "start": 16.6,
+        "end": 16.88
+      },
+      {
+        "id": "demo:w00027",
+        "text": "speaker",
+        "start": 16.98,
+        "end": 17.26
+      },
+      {
+        "id": "demo:w00028",
+        "text": "says",
+        "start": 17.36,
+        "end": 17.64
+      },
+      {
+        "id": "demo:w00029",
+        "text": "they",
+        "start": 17.74,
+        "end": 18.02
+      },
+      {
+        "id": "demo:w00030",
+        "text": "saved",
+        "start": 18.12,
+        "end": 18.4
+      },
+      {
+        "id": "demo:w00031",
+        "text": "time",
+        "start": 18.5,
+        "end": 18.78
+      },
+      {
+        "id": "demo:w00032",
+        "text": "for",
+        "start": 18.88,
+        "end": 19.16
+      },
+      {
+        "id": "demo:w00033",
+        "text": "this",
+        "start": 19.26,
+        "end": 19.54
+      },
+      {
+        "id": "demo:w00034",
+        "text": "interview,",
+        "start": 19.64,
+        "end": 19.92
+      },
+      {
+        "id": "demo:w00035",
+        "text": "not",
+        "start": 20.02,
+        "end": 20.3
+      },
+      {
+        "id": "demo:w00036",
+        "text": "for",
+        "start": 20.4,
+        "end": 20.68
+      },
+      {
+        "id": "demo:w00037",
+        "text": "every",
+        "start": 20.78,
+        "end": 21.06
+      },
+      {
+        "id": "demo:w00038",
+        "text": "interview.",
+        "start": 21.16,
+        "end": 21.44
+      },
+      {
+        "id": "demo:w00039",
+        "text": "I",
+        "start": 24.6,
+        "end": 24.88
+      },
+      {
+        "id": "demo:w00040",
+        "text": "remove",
+        "start": 24.98,
+        "end": 25.26
+      },
+      {
+        "id": "demo:w00041",
+        "text": "the",
+        "start": 25.36,
+        "end": 25.64
+      },
+      {
+        "id": "demo:w00042",
+        "text": "pause,",
+        "start": 25.74,
+        "end": 26.02
+      },
+      {
+        "id": "demo:w00043",
+        "text": "but",
+        "start": 26.12,
+        "end": 26.4
+      },
+      {
+        "id": "demo:w00044",
+        "text": "keep",
+        "start": 26.5,
+        "end": 26.78
+      },
+      {
+        "id": "demo:w00045",
+        "text": "the",
+        "start": 26.88,
+        "end": 27.16
+      },
+      {
+        "id": "demo:w00046",
+        "text": "qualification.",
+        "start": 27.26,
+        "end": 27.54
+      },
+      {
+        "id": "demo:w00047",
+        "text": "Now",
+        "start": 32.6,
+        "end": 32.88
+      },
+      {
+        "id": "demo:w00048",
+        "text": "the",
+        "start": 32.98,
+        "end": 33.26
+      },
+      {
+        "id": "demo:w00049",
+        "text": "same",
+        "start": 33.36,
+        "end": 33.64
+      },
+      {
+        "id": "demo:w00050",
+        "text": "words",
+        "start": 33.74,
+        "end": 34.02
+      },
+      {
+        "id": "demo:w00051",
+        "text": "take",
+        "start": 34.12,
+        "end": 34.4
+      },
+      {
+        "id": "demo:w00052",
+        "text": "less",
+        "start": 34.5,
+        "end": 34.78
+      },
+      {
+        "id": "demo:w00053",
+        "text": "time",
+        "start": 34.88,
+        "end": 35.16
+      },
+      {
+        "id": "demo:w00054",
+        "text": "because",
+        "start": 35.26,
+        "end": 35.54
+      },
+      {
+        "id": "demo:w00055",
+        "text": "only",
+        "start": 35.64,
+        "end": 35.92
+      },
+      {
+        "id": "demo:w00056",
+        "text": "the",
+        "start": 36.02,
+        "end": 36.3
+      },
+      {
+        "id": "demo:w00057",
+        "text": "gap",
+        "start": 36.4,
+        "end": 36.68
+      },
+      {
+        "id": "demo:w00058",
+        "text": "has",
+        "start": 36.78,
+        "end": 37.06
+      },
+      {
+        "id": "demo:w00059",
+        "text": "closed.",
+        "start": 37.16,
+        "end": 37.44
+      },
+      {
+        "id": "demo:w00060",
+        "text": "I",
+        "start": 40.6,
+        "end": 40.88
+      },
+      {
+        "id": "demo:w00061",
+        "text": "listen",
+        "start": 40.98,
+        "end": 41.26
+      },
+      {
+        "id": "demo:w00062",
+        "text": "across",
+        "start": 41.36,
+        "end": 41.64
+      },
+      {
+        "id": "demo:w00063",
+        "text": "the",
+        "start": 41.74,
+        "end": 42.02
+      },
+      {
+        "id": "demo:w00064",
+        "text": "cut",
+        "start": 42.12,
+        "end": 42.4
+      },
+      {
+        "id": "demo:w00065",
+        "text": "to",
+        "start": 42.5,
+        "end": 42.78
+      },
+      {
+        "id": "demo:w00066",
+        "text": "hear",
+        "start": 42.88,
+        "end": 43.16
+      },
+      {
+        "id": "demo:w00067",
+        "text": "whether",
+        "start": 43.26,
+        "end": 43.54
+      },
+      {
+        "id": "demo:w00068",
+        "text": "the",
+        "start": 43.64,
+        "end": 43.92
+      },
+      {
+        "id": "demo:w00069",
+        "text": "sentence",
+        "start": 44.02,
+        "end": 44.3
+      },
+      {
+        "id": "demo:w00070",
+        "text": "still",
+        "start": 44.4,
+        "end": 44.68
+      },
+      {
+        "id": "demo:w00071",
+        "text": "sounds",
+        "start": 44.78,
+        "end": 45.06
+      },
+      {
+        "id": "demo:w00072",
+        "text": "natural.",
+        "start": 45.16,
+        "end": 45.44
+      },
+      {
+        "id": "demo:w00073",
+        "text": "Word",
+        "start": 48.6,
+        "end": 48.88
+      },
+      {
+        "id": "demo:w00074",
+        "text": "timestamps",
+        "start": 48.98,
+        "end": 49.26
+      },
+      {
+        "id": "demo:w00075",
+        "text": "help",
+        "start": 49.36,
+        "end": 49.64
+      },
+      {
+        "id": "demo:w00076",
+        "text": "me",
+        "start": 49.74,
+        "end": 50.02
+      },
+      {
+        "id": "demo:w00077",
+        "text": "find",
+        "start": 50.12,
+        "end": 50.4
+      },
+      {
+        "id": "demo:w00078",
+        "text": "the",
+        "start": 50.5,
+        "end": 50.78
+      },
+      {
+        "id": "demo:w00079",
+        "text": "edit,",
+        "start": 50.88,
+        "end": 51.16
+      },
+      {
+        "id": "demo:w00080",
+        "text": "but",
+        "start": 51.26,
+        "end": 51.54
+      },
+      {
+        "id": "demo:w00081",
+        "text": "they",
+        "start": 51.64,
+        "end": 51.92
+      },
+      {
+        "id": "demo:w00082",
+        "text": "cannot",
+        "start": 52.02,
+        "end": 52.3
+      },
+      {
+        "id": "demo:w00083",
+        "text": "judge",
+        "start": 52.4,
+        "end": 52.68
+      },
+      {
+        "id": "demo:w00084",
+        "text": "its",
+        "start": 52.78,
+        "end": 53.06
+      },
+      {
+        "id": "demo:w00085",
+        "text": "meaning.",
+        "start": 53.16,
+        "end": 53.44
+      },
+      {
+        "id": "demo:w00086",
+        "text": "The",
+        "start": 56.6,
+        "end": 56.88
+      },
+      {
+        "id": "demo:w00087",
+        "text": "interview",
+        "start": 56.98,
+        "end": 57.26
+      },
+      {
+        "id": "demo:w00088",
+        "text": "is",
+        "start": 57.36,
+        "end": 57.64
+      },
+      {
+        "id": "demo:w00089",
+        "text": "shorter,",
+        "start": 57.74,
+        "end": 58.02
+      },
+      {
+        "id": "demo:w00090",
+        "text": "and",
+        "start": 58.12,
+        "end": 58.4
+      },
+      {
+        "id": "demo:w00091",
+        "text": "the",
+        "start": 58.5,
+        "end": 58.78
+      },
+      {
+        "id": "demo:w00092",
+        "text": "speaker's",
+        "start": 58.88,
+        "end": 59.16
+      },
+      {
+        "id": "demo:w00093",
+        "text": "original",
+        "start": 59.26,
+        "end": 59.54
+      },
+      {
+        "id": "demo:w00094",
+        "text": "qualification",
+        "start": 59.64,
+        "end": 59.92
+      },
+      {
+        "id": "demo:w00095",
+        "text": "is",
+        "start": 60.02,
+        "end": 60.3
+      },
+      {
+        "id": "demo:w00096",
+        "text": "still",
+        "start": 60.4,
+        "end": 60.68
+      },
+      {
+        "id": "demo:w00097",
+        "text": "there.",
+        "start": 60.78,
+        "end": 61.06
+      }
+    ]
+  },
+  "transcript_sha256": "8fed117925aeea19db4c1b092db48f36f3935d2c6c1eaeed654fbb11560a54a1",
+  "global_plan": {
+    "audience": "An interview editor who can cut clips but wants to preserve the scope of a speaker account.",
+    "question": "How can an interview become shorter without changing what the speaker meant?",
+    "payoff": "Remove the silence and retain the original qualification, then review meaning and sound.",
+    "payoff_beat": "b08",
+    "route": [
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08"
+    ],
+    "viewer_value": [
+      "education"
+    ],
+    "profile": {
+      "persistent_style": "Use the same original and proposed-edit objects; distinguish them with labels as well as colour. Select actual components in the receiving project.",
+      "progress": "Small 01–08 indicator corresponding to the eight named sections.",
+      "sound": "Narration and review listening have priority; sound design remains a receiving-project decision."
+    },
+    "capabilities": []
+  },
+  "sources": [
+    {
+      "id": "fictional-case",
+      "path": "source.md",
+      "sha256": "2a07249cd19c618e90acbaeefce9e5fb367b9e98650ff09924df4ee12f2ec642",
+      "kind": "fictional"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Question",
+      "summary": "Shortening and preserving meaning are separate requirements."
+    },
+    {
+      "id": "s02",
+      "title": "Source",
+      "summary": "Every proposed edit can be compared with the retained original."
+    },
+    {
+      "id": "s03",
+      "title": "Meaning",
+      "summary": "The account concerns one interview, not all interviews."
+    },
+    {
+      "id": "s04",
+      "title": "Cut",
+      "summary": "Silence can disappear while the qualification stays."
+    },
+    {
+      "id": "s05",
+      "title": "Compare",
+      "summary": "Only the silence interval changed in this example."
+    },
+    {
+      "id": "s06",
+      "title": "Listen",
+      "summary": "Naturalness requires listening to actual audio."
+    },
+    {
+      "id": "s07",
+      "title": "Limits",
+      "summary": "Word locations do not establish semantic correctness."
+    },
+    {
+      "id": "s08",
+      "title": "Payoff",
+      "summary": "The opening question is answered by the preserved qualification and shorter gap."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "meaning": "Shortening and preserving meaning are separate requirements.",
+      "introduced_at": "demo:w00001"
+    },
+    {
+      "id": "c02",
+      "meaning": "Every proposed edit can be compared with the retained original.",
+      "introduced_at": "demo:w00013"
+    },
+    {
+      "id": "c03",
+      "meaning": "The account concerns one interview, not all interviews.",
+      "introduced_at": "demo:w00026"
+    },
+    {
+      "id": "c04",
+      "meaning": "Silence can disappear while the qualification stays.",
+      "introduced_at": "demo:w00039"
+    },
+    {
+      "id": "c05",
+      "meaning": "Only the silence interval changed in this example.",
+      "introduced_at": "demo:w00047"
+    },
+    {
+      "id": "c06",
+      "meaning": "Naturalness requires listening to actual audio.",
+      "introduced_at": "demo:w00060"
+    },
+    {
+      "id": "c07",
+      "meaning": "Word locations do not establish semantic correctness.",
+      "introduced_at": "demo:w00073"
+    },
+    {
+      "id": "c08",
+      "meaning": "The opening question is answered by the preserved qualification and shorter gap.",
+      "introduced_at": "demo:w00086"
+    }
+  ],
+  "objects": [
+    {
+      "id": "original",
+      "meaning": "Unchanged fictional source account.",
+      "continuity": "Retain identical words across all comparisons."
+    },
+    {
+      "id": "edit",
+      "meaning": "Proposed copy with the silence interval removed.",
+      "continuity": "Only the pause changes; do not remove word blocks."
+    },
+    {
+      "id": "qualification",
+      "meaning": "The words for this interview constrain the claim.",
+      "continuity": "Keep attached to the same claim before, during and after editing."
+    }
+  ],
+  "beats": [
+    {
+      "id": "b01",
+      "section": "s01",
+      "paragraph": "p01",
+      "start": 0,
+      "end": 8,
+      "word_ids": [
+        "demo:w00001",
+        "demo:w00002",
+        "demo:w00003",
+        "demo:w00004",
+        "demo:w00005",
+        "demo:w00006",
+        "demo:w00007",
+        "demo:w00008",
+        "demo:w00009",
+        "demo:w00010",
+        "demo:w00011",
+        "demo:w00012"
+      ],
+      "speech": "How can I shorten this interview without changing what the speaker meant?",
+      "meaning": "The opening asks about a constrained edit: reduce the duration while preserving what this particular speaker claimed. Shorter is a property of the proposed cut, while faithful is a judgment about the relation between original and edited meaning. The viewer does not yet need to know the editing software, the transcript format, or the mechanics of alignment. They do need to recognize that these are two different criteria. Establish one original statement and keep that statement identifiable across the sequence. Do not show a completed green approval before the comparison has happened. The eventual answer will use a deliberately simple fictional pause removal. It will demonstrate the comparison the editor should make, not prove that every short edit is faithful. The narrator is explaining a constructed case, not reporting measured productivity or a completed interview.",
+      "audience_before": "The viewer has a question about shorter edits.",
+      "audience_after": "Shortening and preserving meaning are separate requirements.",
+      "misconceptions": [
+        "No completed edit or measured time savings have been demonstrated."
+      ],
+      "must_not_imply": [
+        "No completed edit or measured time savings have been demonstrated."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Intended conclusion",
+          "excerpt": "A shorter pause can make this example shorter without changing its words."
+        }
+      ],
+      "requires": [],
+      "introduces": [
+        "c01"
+      ],
+      "knowledge": {
+        "viewer": "Shortening and preserving meaning are separate requirements.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o01",
+          "show": "Keep one statement identifiable across the opening comparison.",
+          "inference": "Shortening and preserving meaning are separate requirements."
+        }
+      ],
+      "handoff": "Shortening and preserving meaning are separate requirements. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b02",
+      "section": "s02",
+      "paragraph": "p01",
+      "start": 8,
+      "end": 16,
+      "word_ids": [
+        "demo:w00013",
+        "demo:w00014",
+        "demo:w00015",
+        "demo:w00016",
+        "demo:w00017",
+        "demo:w00018",
+        "demo:w00019",
+        "demo:w00020",
+        "demo:w00021",
+        "demo:w00022",
+        "demo:w00023",
+        "demo:w00024",
+        "demo:w00025"
+      ],
+      "speech": "First I keep the original recording, so every proposed cut has a reference.",
+      "meaning": "The original recording functions as the reference against which the proposed cut will be evaluated. It must remain available and unchanged while the editor experiments with the copy. In this fixture there is no real audio file; the representation of an original is a teaching object backed by the written fictional case. The picture should distinguish the reference from the proposed edit without suggesting that the reference is a backup automatically created by a particular product. Keeping a reference makes comparison possible but does not certify any later editing decision. Preserve the same word blocks in both tracks so the viewer can notice changes instead of reconstructing the scene. The opening question remains unanswered: the audience now has a way to compare, but has not yet seen which content can be removed.",
+      "audience_before": "The viewer knows the goal but has no reference.",
+      "audience_after": "Every proposed edit can be compared with the retained original.",
+      "misconceptions": [
+        "A retained original does not certify the proposed edit."
+      ],
+      "must_not_imply": [
+        "A retained original does not certify the proposed edit."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Review sequence",
+          "excerpt": "First preserve the source recording."
+        }
+      ],
+      "requires": [
+        "c01"
+      ],
+      "introduces": [
+        "c02"
+      ],
+      "knowledge": {
+        "viewer": "Every proposed edit can be compared with the retained original.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o02",
+          "show": "Retain an unchanged source track beside the proposed edit.",
+          "inference": "Every proposed edit can be compared with the retained original."
+        }
+      ],
+      "handoff": "Every proposed edit can be compared with the retained original. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b03",
+      "section": "s03",
+      "paragraph": "p02",
+      "start": 16,
+      "end": 24,
+      "word_ids": [
+        "demo:w00026",
+        "demo:w00027",
+        "demo:w00028",
+        "demo:w00029",
+        "demo:w00030",
+        "demo:w00031",
+        "demo:w00032",
+        "demo:w00033",
+        "demo:w00034",
+        "demo:w00035",
+        "demo:w00036",
+        "demo:w00037",
+        "demo:w00038"
+      ],
+      "speech": "The speaker says they saved time for this interview, not for every interview.",
+      "meaning": "The words for this interview constrain the scope of the account. The speaker describes a single experience of saving time. Nothing in the source establishes that the same method saves time on every interview or for every editor. Treat the qualification as semantically attached to the claim rather than as filler at the end of the sentence. The narrator knows the full fictional case and the viewer now receives this limitation explicitly. The depicted editor must preserve the qualification when proposing a shorter cut. Showing a broad productivity headline would contradict the local meaning even if the headline looked attractive or sounded plausible. The visual should make the scope visible through the same words the speaker used. The next action will remove silence, so establish the contrast between an empty interval and meaningful words before moving either.",
+      "audience_before": "The original and proposed edit are distinct.",
+      "audience_after": "The account concerns one interview, not all interviews.",
+      "misconceptions": [
+        "One reported experience is not a universal productivity claim."
+      ],
+      "must_not_imply": [
+        "One reported experience is not a universal productivity claim."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Original account",
+          "excerpt": "The speaker reports one experience, not measured time savings across interviews."
+        }
+      ],
+      "requires": [
+        "c02"
+      ],
+      "introduces": [
+        "c03"
+      ],
+      "knowledge": {
+        "viewer": "The account concerns one interview, not all interviews.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o03",
+          "show": "Attach for this interview visibly to the source claim.",
+          "inference": "The account concerns one interview, not all interviews."
+        }
+      ],
+      "handoff": "The account concerns one interview, not all interviews. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b04",
+      "section": "s04",
+      "paragraph": "p02",
+      "start": 24,
+      "end": 32,
+      "word_ids": [
+        "demo:w00039",
+        "demo:w00040",
+        "demo:w00041",
+        "demo:w00042",
+        "demo:w00043",
+        "demo:w00044",
+        "demo:w00045",
+        "demo:w00046"
+      ],
+      "speech": "I remove the pause, but keep the qualification.",
+      "meaning": "The removable material is the silent interval in the fictional source, not any spoken qualification. The sentence contrasts two operations: remove a pause and retain words that limit the scope of the claim. An animator needs the original quote to know what qualification refers to; the local sentence alone does not contain those words. Keep for this interview attached to I saved time before, during and after the cut. The shortened track may have less empty space, but its word sequence must not change. The editor has proposed an edit whose semantic effect still needs comparison. Do not replace the quote with a general claim that AI saves time. The visual obligation is to distinguish deletion of silence from deletion of meaning; it does not dictate a specific timeline design, colour, or camera move.",
+      "audience_before": "The viewer recognizes the qualification and the pause.",
+      "audience_after": "Silence can disappear while the qualification stays.",
+      "misconceptions": [
+        "Removing the qualification is not authorized by removing the pause."
+      ],
+      "must_not_imply": [
+        "Removing the qualification is not authorized by removing the pause."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Proposed edit",
+          "excerpt": "The editor removes only the two-second pause."
+        }
+      ],
+      "requires": [
+        "c03"
+      ],
+      "introduces": [
+        "c04"
+      ],
+      "knowledge": {
+        "viewer": "Silence can disappear while the qualification stays.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o04",
+          "show": "Remove only the silence interval and preserve all word blocks.",
+          "inference": "Silence can disappear while the qualification stays."
+        },
+        {
+          "id": "o04-keep",
+          "show": "Keep the qualification visibly attached while the gap changes.",
+          "inference": "The claim still concerns this interview only."
+        }
+      ],
+      "handoff": "Silence can disappear while the qualification stays. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b05",
+      "section": "s05",
+      "paragraph": "p03",
+      "start": 32,
+      "end": 40,
+      "word_ids": [
+        "demo:w00047",
+        "demo:w00048",
+        "demo:w00049",
+        "demo:w00050",
+        "demo:w00051",
+        "demo:w00052",
+        "demo:w00053",
+        "demo:w00054",
+        "demo:w00055",
+        "demo:w00056",
+        "demo:w00057",
+        "demo:w00058",
+        "demo:w00059"
+      ],
+      "speech": "Now the same words take less time because only the gap has closed.",
+      "meaning": "The before and after tracks contain the same sequence of words. Their different lengths represent removal of a silence interval rather than faster delivery, removal of speech or a quantified productivity benefit. In a real recording, the interval would be measured on the audio clock and the joins would require listening. Here the two-second gap belongs to the fictional source, while the narrator timing belongs to the separate synthetic demonstration clock. Do not confuse those quantities. The viewer should be able to compare the retained qualification across both tracks and identify exactly where duration changed. Keep the words in recognizable positions or make their correspondence explicit during movement. This comparison supplies evidence for the narrow claim that the example is shorter without changing its words. Whether it still sounds natural remains a separate review step.",
+      "audience_before": "The gap has closed while the words persisted.",
+      "audience_after": "Only the silence interval changed in this example.",
+      "misconceptions": [
+        "A shorter track does not mean faster speech or removed words."
+      ],
+      "must_not_imply": [
+        "A shorter track does not mean faster speech or removed words."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Proposed edit",
+          "excerpt": "“I saved time for this interview.”"
+        }
+      ],
+      "requires": [
+        "c04"
+      ],
+      "introduces": [
+        "c05"
+      ],
+      "knowledge": {
+        "viewer": "Only the silence interval changed in this example.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o05",
+          "show": "Compare identical word sequences on different-length tracks.",
+          "inference": "Only the silence interval changed in this example."
+        }
+      ],
+      "handoff": "Only the silence interval changed in this example. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b06",
+      "section": "s06",
+      "paragraph": "p03",
+      "start": 40,
+      "end": 48,
+      "word_ids": [
+        "demo:w00060",
+        "demo:w00061",
+        "demo:w00062",
+        "demo:w00063",
+        "demo:w00064",
+        "demo:w00065",
+        "demo:w00066",
+        "demo:w00067",
+        "demo:w00068",
+        "demo:w00069",
+        "demo:w00070",
+        "demo:w00071",
+        "demo:w00072"
+      ],
+      "speech": "I listen across the cut to hear whether the sentence still sounds natural.",
+      "meaning": "Listening across a cut is an action the editor performs to evaluate the audible result, including sentence rhythm and whether the join sounds abrupt. The written fixture does not include an audio recording, so the visual must not pretend that a successful listening test has actually occurred. A playhead or listening window may represent the required review operation if it is labeled as a demonstration. A green pass badge would incorrectly turn a proposed review into an observed result. The audience should understand why matching words alone is insufficient for an acceptable edit: timing and context can affect how those words are heard. Keep the original and edited tracks available so the review has a clear reference. In a real project, record what audio was heard and which uncertainties remain instead of inferring sound quality from transcript timestamps.",
+      "audience_before": "The word sequences match, but audio has not been heard.",
+      "audience_after": "Naturalness requires listening to actual audio.",
+      "misconceptions": [
+        "The fictional fixture has no audio that has passed listening review."
+      ],
+      "must_not_imply": [
+        "The fictional fixture has no audio that has passed listening review."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Review sequence",
+          "excerpt": "Word timestamps can locate a passage but\ncannot establish that the edited meaning or sound is acceptable."
+        }
+      ],
+      "requires": [
+        "c05"
+      ],
+      "introduces": [
+        "c06"
+      ],
+      "knowledge": {
+        "viewer": "Naturalness requires listening to actual audio.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o06",
+          "show": "Show listening as an unresolved review operation.",
+          "inference": "Naturalness requires listening to actual audio."
+        }
+      ],
+      "handoff": "Naturalness requires listening to actual audio. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b07",
+      "section": "s07",
+      "paragraph": "p04",
+      "start": 48,
+      "end": 56,
+      "word_ids": [
+        "demo:w00073",
+        "demo:w00074",
+        "demo:w00075",
+        "demo:w00076",
+        "demo:w00077",
+        "demo:w00078",
+        "demo:w00079",
+        "demo:w00080",
+        "demo:w00081",
+        "demo:w00082",
+        "demo:w00083",
+        "demo:w00084",
+        "demo:w00085"
+      ],
+      "speech": "Word timestamps help me find the edit, but they cannot judge its meaning.",
+      "meaning": "The word clock provides locations in a recording. It helps the editor find the selected occurrences around a proposed cut and lets the animator synchronize a visible change. It does not determine whether a qualification matters, whether an interviewee intended a general claim, or whether a join sounds natural. Those questions depend on context and review. Separate the timestamp evidence from the semantic decision in the picture. Do not make the clock or an AI icon appear to issue a verdict about meaning. The narrator can explain the distinction using this fictional case without claiming that an automatic system has solved it. The audience should retain both useful capabilities and their limits: timing supports navigation and coordination; it does not replace interpretation. This prepares the closing answer to be specific rather than an endorsement of all automatic edits.",
+      "audience_before": "Listening and word comparison are separate review operations.",
+      "audience_after": "Word locations do not establish semantic correctness.",
+      "misconceptions": [
+        "An accurate timestamp does not prove the interpretation."
+      ],
+      "must_not_imply": [
+        "An accurate timestamp does not prove the interpretation."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Review sequence",
+          "excerpt": "Word timestamps can locate a passage but\ncannot establish that the edited meaning or sound is acceptable."
+        }
+      ],
+      "requires": [
+        "c06"
+      ],
+      "introduces": [
+        "c07"
+      ],
+      "knowledge": {
+        "viewer": "Word locations do not establish semantic correctness.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o07",
+          "show": "Separate time-location evidence from the meaning decision.",
+          "inference": "Word locations do not establish semantic correctness."
+        }
+      ],
+      "handoff": "Word locations do not establish semantic correctness. Keep the same source and edit objects in the next scene."
+    },
+    {
+      "id": "b08",
+      "section": "s08",
+      "paragraph": "p04",
+      "start": 56,
+      "end": 64,
+      "word_ids": [
+        "demo:w00086",
+        "demo:w00087",
+        "demo:w00088",
+        "demo:w00089",
+        "demo:w00090",
+        "demo:w00091",
+        "demo:w00092",
+        "demo:w00093",
+        "demo:w00094",
+        "demo:w00095",
+        "demo:w00096",
+        "demo:w00097"
+      ],
+      "speech": "The interview is shorter, and the speaker's original qualification is still there.",
+      "meaning": "The payoff returns to the opening question using the same statement and proposed edit. In the constructed case the silence interval is shorter and the qualifying words remain present. The audience can inspect that relation directly because the objects and words have persisted through the comparison. This does not establish that every pause should be removed, that every interview can be shortened safely, or that a language model can certify the meaning of an edit. The naturalness of a real audio join would still need listening; this example has no audio to accept. Preserve that limitation without burying the answer. The useful conclusion is an actionable review criterion: compare the actual change against the original account and keep the scope of the claim intact. Resolve the opening question by showing what changed and what remained, not by adding a new promotional claim.",
+      "audience_before": "The viewer has seen the narrow comparison and its limits.",
+      "audience_after": "The opening question is answered by the preserved qualification and shorter gap.",
+      "misconceptions": [
+        "The example does not establish that all pauses should be removed."
+      ],
+      "must_not_imply": [
+        "The example does not establish that all pauses should be removed."
+      ],
+      "source_refs": [
+        {
+          "source_id": "fictional-case",
+          "locator": "Intended conclusion",
+          "excerpt": "The editor must still review meaning and sound."
+        }
+      ],
+      "requires": [
+        "c07"
+      ],
+      "introduces": [
+        "c08"
+      ],
+      "knowledge": {
+        "viewer": "The opening question is answered by the preserved qualification and shorter gap.",
+        "actor": "The editor has the original account and a proposed edit; acceptance still needs review.",
+        "narrator": "The narrator knows the whole fictional case and must not present it as observed production."
+      },
+      "objects": [
+        "original",
+        "edit",
+        "qualification"
+      ],
+      "obligations": [
+        {
+          "id": "o08",
+          "show": "Return to both tracks with the qualification still present.",
+          "inference": "The opening question is answered by the preserved qualification and shorter gap."
+        }
+      ],
+      "handoff": "The opening question is answered by the preserved qualification and shorter gap. Keep the same source and edit objects in the next scene."
+    }
+  ],
+  "events": [
+    {
+      "id": "e01",
+      "beat": "b01",
+      "obligation": "o01",
+      "anchor_word": "demo:w00004",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c01"
+      ]
+    },
+    {
+      "id": "e02",
+      "beat": "b02",
+      "obligation": "o02",
+      "anchor_word": "demo:w00017",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c01"
+      ]
+    },
+    {
+      "id": "e03",
+      "beat": "b03",
+      "obligation": "o03",
+      "anchor_word": "demo:w00034",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c02"
+      ]
+    },
+    {
+      "id": "e04",
+      "beat": "b04",
+      "obligation": "o04",
+      "anchor_word": "demo:w00040",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c03"
+      ]
+    },
+    {
+      "id": "e04-keep",
+      "beat": "b04",
+      "obligation": "o04-keep",
+      "anchor_word": "demo:w00044",
+      "anchor_edge": "start",
+      "sync": "onset",
+      "offset": 0,
+      "duration": 0,
+      "hold": 1.5,
+      "requires": [
+        "c03"
+      ]
+    },
+    {
+      "id": "e05",
+      "beat": "b05",
+      "obligation": "o05",
+      "anchor_word": "demo:w00057",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c04"
+      ]
+    },
+    {
+      "id": "e06",
+      "beat": "b06",
+      "obligation": "o06",
+      "anchor_word": "demo:w00061",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c05"
+      ]
+    },
+    {
+      "id": "e07",
+      "beat": "b07",
+      "obligation": "o07",
+      "anchor_word": "demo:w00074",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c06"
+      ]
+    },
+    {
+      "id": "e08",
+      "beat": "b08",
+      "obligation": "o08",
+      "anchor_word": "demo:w00089",
+      "anchor_edge": "start",
+      "sync": "settled",
+      "offset": 0,
+      "duration": 0.4,
+      "hold": 1.2,
+      "requires": [
+        "c07"
+      ]
+    }
+  ],
+  "review": {
+    "semantic": "self-reviewed",
+    "audiovisual": "unreviewed",
+    "issues": [
+      "No recording or rendered output exists for this fictional demonstration."
+    ]
+  }
+}
