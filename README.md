@@ -26,6 +26,15 @@ The skill is a **copyable folder of instructions, examples and optional helper
 scripts**. Use it in Claude Code, Codex or another agent that supports skills,
 alongside your chosen animation tools such as Remotion, Manim or Motion Canvas.
 
+## Watch the film
+
+This workflow grew out of making [How much faster can a quantum computer be?](https://www.youtube.com/watch?v=3hZaKK0-leY),
+a 27-minute Manim explanation of OpenAI’s fourth-power query-complexity result.
+The [final section](https://www.youtube.com/watch?v=3hZaKK0-leY&t=1431s)
+explains how the papers, narration and visuals were developed together.
+
+[![The film thumbnail: why Q to the fourth power, above a light-wave interferometer](https://raw.githubusercontent.com/wcook04/wcook04.github.io/8a065627b7505f5ea43fc450d927a648880988a3/assets/films/quartic-query-1280.webp)](https://www.youtube.com/watch?v=3hZaKK0-leY)
+
 ## See the difference
 
 You say: **“This narrows the search.”**
