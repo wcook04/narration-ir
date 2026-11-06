@@ -1,32 +1,49 @@
 # Narration IR
 
-**Give your animation agent the meaning behind your words.**
+**Help your animation agent understand what you're saying.**
 
-Narration IR is a portable agent skill for turning a script or recording and its
-sources into a grounded, word-timed visual explanation plan. The plan records
-what you mean, what the viewer needs to understand, what a picture must show,
-and which spoken words each visual event follows.
+Give your agent a recording or draft script, plus the sources that explain the
+subject. With this skill, the agent writes a scene-by-scene brief: what each
+sentence means, what viewers need to see, and when the visuals should change.
+Your animation agent then uses that brief with your chosen video tools.
 
-It is a planning skill with optional validation tools. Use it alongside your
-existing Remotion, Manim, Motion Canvas, editing, or animation workflow.
+The skill is a **folder of instructions, examples and optional helper scripts**.
+You can install it in Claude Code, Codex or another agent that supports skills.
+Use it alongside Remotion, Manim, Motion Canvas or your existing editing workflow.
+
+[Install the skill](#install-the-skill) · [Read the worked example](skills/narration-ir/examples/interview/walkthrough.md)
+
+![Three stages: your words and sources; a brief explaining meaning and timing; a visual plan that removes a pause while preserving “I saved time for this interview.”](assets/readme/narration-to-visual-plan.png)
+
+*An illustration of the fictional interview example below. The image shows a
+planned edit, not a screenshot of an app or a rendered video.*
+
+**IR** means *intermediate representation*: here, the written plan between your
+narration and the animation.
 
 ## See the difference
 
-You say: **“I remove the pause, but keep the qualification.”**
+Suppose an interviewee says: **“I saved time [pause] for this interview.”**
 
-| The animator needs | The IR supplies |
+You want to show how you edited the recording, and narrate:
+**“I remove the pause, but keep the qualification.”** The qualification is
+“for this interview”: those words limit the claim to one interview.
+
+Your animation agent needs that context before deciding what to draw.
+
+| In the brief | What the animator needs to know |
 | --- | --- |
 | Meaning | Shorten silence while preserving “for this interview.” |
-| Evidence | The original quote and proposed edit, with source locations. |
-| Possible misunderstanding | A smoother edit can accidentally imply a broader claim. |
-| Visual obligation | Show the same words before and after. Only the silence disappears. |
+| Source | Where to find the original quote and proposed edit. |
+| Risk | Removing “for this interview” would make the claim broader. |
+| What to show | The same words before and after. Only the silence disappears. |
 | Timing | The gap closes on **remove**; the qualification stays visible on **keep**. |
-| Creative freedom | The animator chooses layout, motion, typography and treatment. |
+| Design choices | The animator chooses the layout, motion and typography. |
 
 [Follow the complete eight-stage example](skills/narration-ir/examples/interview/walkthrough.md)
-from opening question to payoff. It includes a deliberately misleading treatment
-and a repair. The case and timestamps are synthetic; this is an inspectable
-planning example, not footage of a real interview or an evaluated video.
+from opening question to answer, including a deliberately misleading visual
+proposal and its correction. The interview and timestamps are invented for the
+example; no real interview footage is included.
 
 ## Install the skill
 
@@ -65,17 +82,22 @@ Python environment, or renderer.
 
 Then ask your agent:
 
-> Use narration-ir on my recording and source folder. Keep the recorded words.
-> Build the global explanation and sentence-level meaning, evidence, audience
-> states, misconceptions and visual obligations. Anchor meaningful events to
-> spoken words, review chronology, then give my animator a packet per scene.
+> Use narration-ir on my recording and source folder. Keep my recorded words.
+> Explain what each sentence means and what viewers need to see. Tie visual
+> changes to the words I say. Make sure each idea is introduced before I refer
+> to it, then give my animation agent a brief for each scene.
 
 For a script that is still changing, add: “Develop the script and pictures
 together; timing remains provisional until I record.”
 
 ## Try the optional tools
 
-Python 3.10+; `jsonschema` is the only runtime dependency. From the repo root:
+The skill's instructions work without Python. If you want to validate a JSON
+plan or generate a brief for one scene, the helper needs Python 3.10+ and
+`jsonschema`. From the repo root:
+
+<details>
+<summary>Install and run the Python helper</summary>
 
 ```sh
 python3 -m venv .venv
@@ -84,30 +106,41 @@ python3 -m venv .venv
 .venv/bin/python skills/narration-ir/scripts/narration_ir.py packet skills/narration-ir/examples/interview/plan.json --beat b04
 ```
 
-On Windows use `.venv\Scripts\python.exe`. Validation reports structural and
-timing errors separately from warnings and open review issues. The example
-passes the mechanical rules and explicitly retains synthetic timing and an
-unreviewed audiovisual result. The packet includes global purpose, sentence
-meaning, word occurrences, source evidence, continuity and resolved events.
+On Windows use `.venv\Scripts\python.exe`. The `validate` command validates the
+example's structure, references and declared timing. The `packet` command prints
+the brief for scene `b04`, including source excerpts, explanation and event times.
+
+The example passes validation, with warnings that its timing is synthetic and
+no audiovisual output has been reviewed. A valid plan still needs review for
+meaning, readability and timing against real audio.
 
 Import the `words` array from Whisper/WhisperX JSON with `import-whisper`; see
 [the format and commands](skills/narration-ir/references/contract.md). Untimed
 words are rejected. No transcription engine or renderer is bundled or installed.
 
+</details>
+
 ## What belongs in the plan?
 
-The **global plan** records audience, opening question, payoff, section route,
-persistent objects, style preferences and available capabilities. The **local
-plan** records literal speech, source-grounded elaboration, audience before/after,
-misconceptions, exclusions, prerequisites and visual obligations. Word anchors
-bind the explanation to a particular transcript revision.
+For the **whole video**, the agent records who it is for, the opening question,
+the answer you will give, and the steps needed to explain that answer. It also
+records which objects and visual conventions should stay consistent, and which
+existing skills, components and assets could help.
+
+For **each sentence**, the agent explains what you mean using the sources. It
+records what viewers already know, what they should understand next, what they
+might misunderstand, and what the picture must show. Each planned visual change
+refers to a specific spoken word, so repeated words can be distinguished.
 
 Ten-to-one elaboration can be useful when the speaker compresses substantial
-background into a sentence. It is a configurable depth target, not a quality
-score. A word can retain the previous picture; it does not need a new animation.
+background into a sentence. Ask for that level of detail when useful; more words
+alone do not make an explanation better. Most spoken words can accompany the
+same picture without another animation.
 
-The skill includes hook/development/payoff coherence and viewer orientation.
-It makes no virality promises and includes no reposting or variant-farming workflow.
+With an **accepted recording**, the agent plans around the existing words and
+timing. With a **draft script**, you can revise the words and pictures together,
+then align the visuals after recording. Transcription timestamps are estimates
+until reviewed against the audio.
 
 ## Repository map
 
@@ -116,6 +149,7 @@ It makes no virality promises and includes no reposting or variant-farming workf
 | [skills/narration-ir](skills/narration-ir/SKILL.md) | Complete installable skill; copy this folder. |
 | [Worked example](skills/narration-ir/examples/interview/walkthrough.md) | Eight stages, sources, populated plan and a failed treatment. |
 | [References](skills/narration-ir/references/contract.md) | Portable schema, review method and renderer handoff. |
+| [README illustration](assets/readme/narration-to-visual-plan.png) | Generated explanation of the worked example. |
 | [tests](tests/test_narration_ir.py) | Timing, chronology, import and isolated-copy regression tests. |
 | [scripts](scripts/verify.py) | Maintainer verification and repository layout enforcement. |
 | [docs](docs/provenance.md) | Design sources, limitations and release evidence. |
@@ -131,4 +165,4 @@ no private recordings, transcripts, conversations or project data are included.
 [Design sources and adoption decisions](docs/provenance.md) distinguish this
 skill from renderer-specific skills and explain what was reused.
 
-Apache-2.0. [License](LICENSE). The same license travels inside the copied skill.
+Apache-2.0. [License](LICENSE). A copy is included in the skill folder.
