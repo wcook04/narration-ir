@@ -20,6 +20,9 @@ audio-alignment evaluation, agent behavior benchmark or viewer-learning result.
 - Local relative Markdown links resolve. The public tree contains no personal
   filesystem paths or private project imports. Gitleaks scans the initial Git
   history and working directory without detected secrets.
+- A fresh `git clone --no-local` of implementation commit `66749e0` into a separate
+  checkout passed the README's virtual-environment installation, full verification
+  command and `b04` scene-packet command with no inherited `PYTHONPATH`.
 
 `python scripts/verify.py` is the maintained validation command. Hosted CI runs
 the same command on Python 3.10, 3.12 and 3.13; see the live Actions results for
