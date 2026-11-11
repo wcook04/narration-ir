@@ -26,7 +26,9 @@ The skill is a **copyable folder of instructions, examples and optional helper
 scripts**. Use it in Claude Code, Codex or another agent that supports skills,
 alongside your chosen animation tools such as Remotion, Manim or Motion Canvas.
 
-## Watch the film
+## Videos
+
+[Introduction to the projects](https://www.youtube.com/watch?v=Yk_kUQUCylc) · [Narration IR walkthrough](https://www.youtube.com/watch?v=ccfceIwmWfY) · [Short demo](https://www.youtube.com/watch?v=mnkOsETFeTU)
 
 This workflow grew out of making [How much faster can a quantum computer be?](https://www.youtube.com/watch?v=CBHPBKcx2ck),
 a 34-minute Manim explanation of OpenAI’s fourth-power query-complexity result.
