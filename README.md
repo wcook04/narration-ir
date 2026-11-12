@@ -28,7 +28,7 @@ alongside your chosen animation tools such as Remotion, Manim or Motion Canvas.
 
 ## Videos
 
-[Introduction to the projects](https://www.youtube.com/watch?v=Yk_kUQUCylc) · [Narration IR walkthrough](https://www.youtube.com/watch?v=ccfceIwmWfY) · [Short demo](https://www.youtube.com/watch?v=mnkOsETFeTU)
+[Introduction to the projects](https://www.youtube.com/watch?v=Yk_kUQUCylc) · [Narration IR walkthrough](https://www.youtube.com/watch?v=b8xZ3-XYXqw) · [Short demo](https://www.youtube.com/watch?v=6GLPHDdR13c)
 
 This workflow grew out of making [How much faster can a quantum computer be?](https://www.youtube.com/watch?v=CBHPBKcx2ck),
 a 34-minute Manim explanation of OpenAI’s fourth-power query-complexity result.
