@@ -28,14 +28,14 @@ alongside your chosen animation tools such as Remotion, Manim or Motion Canvas.
 
 ## Videos
 
-[Introduction to the projects](https://www.youtube.com/watch?v=Yk_kUQUCylc) · [Narration IR walkthrough](https://www.youtube.com/watch?v=b8xZ3-XYXqw) · [Short demo](https://www.youtube.com/watch?v=6GLPHDdR13c)
+[Introduction to the projects](https://www.youtube.com/watch?v=FwgaZYH2otY) · [Narration IR walkthrough](https://www.youtube.com/watch?v=b8xZ3-XYXqw) · [Short demo](https://www.youtube.com/watch?v=6GLPHDdR13c)
 
-This workflow grew out of making [How much faster can a quantum computer be?](https://www.youtube.com/watch?v=CBHPBKcx2ck),
+This workflow grew out of making [How much faster can a quantum computer be?](https://www.youtube.com/watch?v=u6iRqc1ToZ0),
 a 34-minute Manim explanation of OpenAI’s fourth-power query-complexity result.
-The [final section](https://www.youtube.com/watch?v=CBHPBKcx2ck&t=1789s)
+The [final section](https://www.youtube.com/watch?v=u6iRqc1ToZ0&t=1789s)
 explains how the papers, narration and visuals were developed together.
 
-[![The film thumbnail: why Q to the fourth power, above a light-wave interferometer](https://raw.githubusercontent.com/wcook04/wcook04.github.io/8a065627b7505f5ea43fc450d927a648880988a3/assets/films/quartic-query-1280.webp)](https://www.youtube.com/watch?v=CBHPBKcx2ck)
+[![The film thumbnail: why Q to the fourth power, above a light-wave interferometer](https://raw.githubusercontent.com/wcook04/wcook04.github.io/8a065627b7505f5ea43fc450d927a648880988a3/assets/films/quartic-query-1280.webp)](https://www.youtube.com/watch?v=u6iRqc1ToZ0)
 
 ## See the difference
 
